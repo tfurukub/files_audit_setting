@@ -73,9 +73,9 @@ if __name__ == "__main__":
         pp = pprint.PrettyPrinter(indent=2)
 
         # Establish connection with a specific NTNX Cluster
-        tgt_fsvm_ip = "172.16.100.21"  # Please specify a target cluster external IP Address
-        tgt_username = "admin"  # Please specify a user name of target cluster
-        tgt_password = "Nutanix/4u"  # Please specify the password of the user
+        tgt_fsvm_ip = ""  # Please specify a target cluster external IP Address
+        tgt_username = ""  # Please specify a user name of target cluster
+        tgt_password = ""  # Please specify the password of the user
 
         rest_api = NtnxRestApi(tgt_fsvm_ip, tgt_username, tgt_password)
 
